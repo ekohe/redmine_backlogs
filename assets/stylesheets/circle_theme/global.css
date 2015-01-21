@@ -1,0 +1,28 @@
+* {
+  -moz-border-radius: 0 !important;
+  -webkit-border-radius: 0 !important;
+  border-radius: 0 !important;
+}
+
+#toolbar {
+  background-color: #29333a !important;
+  -moz-box-shadow: none !important;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+  color: white;
+  padding: 8px 0 2px;
+}
+
+#toolbar .links {
+  bottom: inherit !important;
+}
+
+#toolbar a, #toolbar a:link, #toolbar a:visited {
+  color: rgb(157, 162, 166) !important;
+  text-decoration: none !important;
+}
+
+#toolbar a:hover {
+  text-decoration: none !important;
+  color: white !important;
+}

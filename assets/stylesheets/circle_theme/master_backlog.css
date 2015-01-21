@@ -1,0 +1,42 @@
+#backlogs_container .header {
+  -moz-border-radius: 0 !important;
+  -webkit-border-radius: 0 !important;
+  border-radius: 0 !important;
+  background: #3d454c !important;
+  filter: none !important;
+  color: #ddd !important;
+}
+
+#backlogs_container .header .velocity {
+  padding-right: 8px !important;
+}
+
+#backlogs_container .header .menu:hover {
+  -moz-box-shadow: none !important;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+  border: none !important;
+}
+
+#backlogs_container .header .menu { border: none !important; }
+
+#backlogs_container .header .headertext { border: 1px solid #3d454c !important; }
+      
+#backlogs_container .header .fff-right { background: #3d454c !important; }
+      
+#backlogs_container .stories .story .id .t a:hover {
+  background: #BBB !important;
+  filter: none !important;
+}
+
+#backlogs_container .stories .story {
+  background: #fafafa !important;
+  border: solid 1px #e0e2e3 !important;
+}
+        
+#backlogs_container .stories .story .id .t a { background: #eee !important; }
+#backlogs_container .stories .story .id .t a:hover { background: #ccc !important; }
+
+#backlogs_container  .story {
+  border: 1px solid #e0e2e3 !important;
+}

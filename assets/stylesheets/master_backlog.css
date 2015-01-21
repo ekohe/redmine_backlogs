@@ -1,3 +1,5 @@
+@import url(circle_theme/master_backlog.css);
+
 /**
  * reserved classes are
  * .backlog (used in master_backlog.js to initialize all backlogs)

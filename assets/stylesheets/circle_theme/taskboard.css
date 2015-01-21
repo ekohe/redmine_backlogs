@@ -1,0 +1,53 @@
+#userid { display: none !important; }
+
+#board_header { border: none !important; }
+
+#board_header td {
+  background: #3d454c !important;
+  filter: none !important;
+  border: none !important;
+  color: white !important;
+  border-right: 1px solid black !important;
+}
+
+#board_header td:first-child {
+  padding-right: 8px !important;
+}
+
+
+#taskboard .story, #taskboard .label_sprint_impediments {
+  -moz-box-shadow: none !important;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+  filter: none !important;
+  background: #ff0 !important;
+  border: 1px solid #e0e2e3 !important;
+}
+
+
+#taskboard .issue {
+  -moz-: none !important;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+  filter: none !important;
+  border: 1px solid #ccc !important;
+}
+        
+#taskboard .add_new img { display: none !important; }
+#taskboard .add_new::before {
+  content: '+' !important; 
+  font-weight: bold !important; 
+  font-size: 1.1em !important; 
+  border: 1px solid #ddd !important; 
+  color: #888 !important; 
+  height: 10px !important; 
+  padding: 0 2px 1px !important; 
+}
+
+
+#taskboard .story .id, #taskboard .issue .id {
+  -moz-border-radius: 0 !important;
+  -webkit-border-radius: 0 !important;
+  border-radius: 0 !important;
+  background: #FFFFFF !important;
+}
