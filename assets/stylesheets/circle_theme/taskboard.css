@@ -20,7 +20,7 @@
   -webkit-box-shadow: none !important;
   box-shadow: none !important;
   filter: none !important;
-  background: #ff0 !important;
+  background: #ff0;
   border: 1px solid #e0e2e3 !important;
 }
 
@@ -32,7 +32,9 @@
   filter: none !important;
   border: 1px solid #ccc !important;
 }
-        
+
+#taskboard .add_new { padding-bottom: 1px; }
+#taskboard .story .id { padding: 2px !important; }
 #taskboard .add_new img { display: none !important; }
 #taskboard .add_new::before {
   content: '+' !important; 
