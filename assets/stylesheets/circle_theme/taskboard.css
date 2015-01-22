@@ -33,6 +33,8 @@
   border: 1px solid #ccc !important;
 }
 
+#taskboard .issue, #taskboard .placeholder{ margin: 4px !important; }
+
 #taskboard .add_new { padding-bottom: 1px; }
 #taskboard .story .id { padding: 2px !important; }
 #taskboard .add_new img { display: none !important; }
