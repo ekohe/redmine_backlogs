@@ -4,6 +4,10 @@
   border-radius: 0 !important;
 }
 
+.rb-toolbar, .rb-main {
+  font-family: 'open sans', Verdana, Arial, sans-serif !important;
+}
+
 #toolbar {
   background-color: #29333a !important;
   -moz-box-shadow: none !important;

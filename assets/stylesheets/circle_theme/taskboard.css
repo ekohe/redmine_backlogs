@@ -39,11 +39,10 @@
 #taskboard .add_new::before {
   content: '+' !important; 
   font-weight: bold !important; 
-  font-size: 1.1em !important; 
-  border: 1px solid #ddd !important; 
+  font-size: 1.5em !important; 
   color: #888 !important; 
   height: 10px !important; 
-  padding: 0 2px 1px !important; 
+  padding: 0 3px;
 }
 
 
